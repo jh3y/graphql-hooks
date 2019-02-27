@@ -143,4 +143,4 @@ class GraphQLClient {
   }
 }
 
-module.exports = GraphQLClient;
+export default GraphQLClient;

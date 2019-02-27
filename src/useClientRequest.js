@@ -1,5 +1,5 @@
-const React = require('react');
-const ClientContext = require('./ClientContext');
+import React from 'react';
+import ClientContext from './ClientContext';
 
 const actionTypes = {
   RESET_STATE: 'RESET_STATE',
@@ -128,4 +128,4 @@ function useClientRequest(query, initialOpts = {}) {
   return [fetchData, state];
 }
 
-module.exports = useClientRequest;
+export default useClientRequest;
